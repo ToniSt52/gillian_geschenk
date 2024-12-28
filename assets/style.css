@@ -25,6 +25,10 @@ h1 {
   font-size: 24px;  /* Adjust the size of the title */
   margin-bottom: 20px;  /* Add some space below the title */
 }
+h3{
+  color: #09bc00;
+  font-size: 16px;
+}
 input[type="text"] {
   padding: 10px;
   margin: 10px 0;
@@ -41,4 +45,7 @@ button {
   background: rgb(43, 43, 43);
   color: #0dff00;
   cursor: pointer;
+}
+::placeholder{
+  color: #0dff00;
 }
