@@ -10,12 +10,12 @@ function checkCode() {
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundAttachment = "fixed";
 
-    document.getElementById('infoText').innerText = "Glückwunsch! Du hast den richtigen Wichtel gefunden!";
+    document.getElementById('infoText').innerText = "Glückwunsch! Lass dir dein Geschenk schmecken und such dir nen schmackhaft schmandigen 'mi gustas tu' aus";
 
     // Set a delay before showing the alert
     setTimeout(function() {
       alert("Glückwunsch du hast deinen Wichtel gefunden. Beim nächsten mal wird er dir einen Al Gadafi spendieren :D");
-    }, 100); // 10ms = 0.01 second delay (you can adjust this time)// Change the background after success
+    }, 200); // 10ms = 0.01 second delay (you can adjust this time)// Change the background after success
 } else {
   // Display the failure message
   alert("Leider Falsch! Versuche es mit einer anderen Person");
