@@ -15,7 +15,7 @@ function checkCode() {
     // Set a delay before showing the alert
     setTimeout(function() {
       alert("Glückwunsch du hast deinen Wichtel gefunden. Beim nächsten mal wird er dir einen Al Gadafi spendieren :D");
-    }, 40); // 10ms = 0.01 second delay (you can adjust this time)// Change the background after success
+    }, 100); // 10ms = 0.01 second delay (you can adjust this time)// Change the background after success
 } else {
   // Display the failure message
   alert("Leider Falsch! Versuche es mit einer anderen Person");
