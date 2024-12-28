@@ -1,12 +1,13 @@
 
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f4f4f9;
+  background-image: url('assets/qm.gif'); /* Local path to your GIF */
+  background-size: cover; /* Ensures the GIF covers the entire page */
+  background-position: center; /* Centers the GIF */
+  background-repeat: no-repeat; /* Prevents the GIF from repeating */
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  height: 100vh; /* Makes sure the background covers the entire viewport height */
 }
+
 .container {
   text-align: center;
   padding: 20px;
