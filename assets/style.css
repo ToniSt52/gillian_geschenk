@@ -1,27 +1,44 @@
 
 body {
-  background-image: url('assets/qm.gif'); /* Local path to your GIF */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f9;
+  background-image: url('qm.gif'); /* Local path to your GIF */
   background-size: cover; /* Ensures the GIF covers the entire page */
   background-position: center; /* Centers the GIF */
   background-repeat: no-repeat; /* Prevents the GIF from repeating */
   background-attachment: fixed; /* Keeps the background fixed when scrolling */
   height: 100vh; /* Makes sure the background covers the entire viewport height */
 }
-
 .container {
   text-align: center;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 8px;
-  background: white;
+  background: rgb(43, 43, 43);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #0dff00;  /* Set text color of the title */
+  font-size: 24px;  /* Adjust the size of the title */
+  margin-bottom: 20px;  /* Add some space below the title */
 }
 input[type="text"] {
   padding: 10px;
   margin: 10px 0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  background: rgb(43, 43, 43);
   width: 200px;
+  color: #0dff00;
 }
 button {
   padding: 10px 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  background: rgb(43, 43, 43);
+  color: #0dff00;
   cursor: pointer;
 }
