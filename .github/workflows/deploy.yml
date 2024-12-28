@@ -31,7 +31,10 @@ jobs:
 
       - name: copy all files to deploy
         run: | #cp all the folders one wants to reference or forward to, etc.
-          cp -R ${{github.workspace}} ${{github.workspace}}/deploy
+          cp -R ${{github.workspace}}/assets ${{github.workspace}}/deploy/assets
+
+      - name: Copy main html from top level to deploy folder
+        run: cp ${{github.workspace}}/index.html ${{github.workspace}}/deploy/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
